@@ -1,0 +1,74 @@
+body{
+    background-color: #a76d7e2f;
+    margin: 0;
+}
+header{
+    height: 50px;
+    background-color: #d39894ce;
+    display: flex;
+    justify-content: RIGHT;
+    align-items: center;
+}
+
+.judul{
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.kotak{
+    padding:25px;
+    background: linear-gradient(180deg,#f2837b65 , #4895B4);
+    height: 250px;
+}
+.foto img{
+    height: 225px;
+    width: 225px;
+    object-fit: cover;
+    border-radius: 225px;
+    aspect-ratio: 3/4;
+    margin-left: 40px;
+}
+.ul ul{
+    padding-right: 30px;
+}
+.ul{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tabelProfil{
+    margin: 40px;
+}
+.tabelProfil h4{
+   font-size: x-large;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.rincianprofil{
+    padding: 30px;
+}
+.tataedu{
+    align-content: center;
+}
+#edu{
+    transform: rotate(270deg);
+}
+.edu{
+    background-color: #e6d6de;
+}
+#sertif{
+    transform: rotate(270deg);
+    width: 20px;
+}
+.sertif{
+    background-color: #e6d6de;
+}
+.gabungan{
+    display: flex;
+    align-items: center;
+    padding: 60px;
+}
+footer{
+    padding: 0;
+    width: 100vw;
+    align-items: center;
+    background-color: #d39894ce;
+}
